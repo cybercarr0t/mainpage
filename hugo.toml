@@ -9,6 +9,10 @@ title = 'CyberCarrot'
 [taxonomies]
     category = 'categories'
 
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true
+
 [caches]
     [caches.images]
         dir    = ':cacheDir/galleriesdeluxe'
