@@ -96,4 +96,4 @@ title = 'CyberCarrot'
 [languages.zh-cn]
     weight = 1
     locale = "zh-cn"
-    title = "CyberCarrot Studio"
+    title = "CyberCarrot"
