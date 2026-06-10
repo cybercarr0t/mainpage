@@ -1,0 +1,105 @@
+@import "reset.css";
+@import "vars.css";
+@import "vars-custom.css";
+@import "markdown.css";
+
+/* ===== CyberCarrot Custom Styles ===== */
+
+:root {
+  --cc-orange: #ff6b35;
+  --cc-dark: #0f0f1a;
+  --cc-darker: #0a0a14;
+  --cc-light: #e0e0e0;
+  --cc-green: #22c55e;
+  --cc-accent-2: #8b5cf6;
+}
+
+/* Navigation enhancement */
+body > header {
+  background: linear-gradient(135deg, var(--cc-dark), var(--cc-darker));
+  border-bottom: 2px solid var(--cc-orange);
+}
+
+body > header h1 {
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body > header a {
+  color: var(--cc-light);
+  transition: color 0.2s ease;
+}
+
+body > header a:hover {
+  color: var(--cc-orange);
+}
+
+/* Gallery cards */
+.card {
+  background: var(--cc-darker);
+  border: 1px solid rgba(255, 107, 53, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(255, 107, 53, 0.25);
+}
+
+.card .body h2 a {
+  color: var(--cc-orange);
+}
+
+.card .num-photos {
+  background: rgba(15, 15, 26, 0.8);
+  color: var(--cc-orange);
+}
+
+/* About page */
+.about-content h2 {
+  color: var(--cc-orange);
+  border-bottom: 2px solid rgba(255, 107, 53, 0.3);
+  padding-bottom: 0.3em;
+}
+
+.about-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-content ul li {
+  padding: 0.4em 0;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+.about-content ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--cc-orange);
+}
+
+/* Footer */
+body > footer {
+  background: var(--cc-darker);
+  border-top: 1px solid rgba(255, 107, 53, 0.2);
+  color: var(--cc-light);
+}
+
+body > footer a {
+  color: var(--cc-orange);
+}
+
+/* Homepage hero */
+.home-intro {
+  text-align: center;
+  padding: 3rem 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.home-intro strong {
+  color: var(--cc-orange);
+}

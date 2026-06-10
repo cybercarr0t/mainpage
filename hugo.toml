@@ -1,0 +1,99 @@
+baseURL = 'https://cybercarrot.net/'
+locale = 'zh-cn'
+title = 'CyberCarrot'
+
+[author]
+    name = "CyberCarrot"
+    email = "fyvo1d@cybercarrot.net"
+
+[taxonomies]
+    category = 'categories'
+
+[caches]
+    [caches.images]
+        dir    = ':cacheDir/galleriesdeluxe'
+        maxAge = "4320h"
+
+[params]
+    [params.author]
+        name        = "CyberCarrot Production"
+        email       = "fyvo1d@cybercarrot.net"
+        description = "一个热爱游戏的独立工作室"
+
+    # Gallery settings
+    [params.gallerydeluxe]
+        shuffle     = true
+        reverse     = false
+        enable_exif = false
+
+    # Theme CSS custom variables
+    [params.galleriesdeluxe]
+        [params.galleriesdeluxe.cssvars]
+            color-background = "#0f0f1a"
+            color-text       = "#e0e0e0"
+            color-accent     = "#ff6b35"
+
+[module]
+    [module.hugoVersion]
+        min = "0.160.0"
+    [[module.mounts]]
+        source = "assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "content"
+        target = "content"
+    [[module.mounts]]
+        source = "static"
+        target = "static"
+    [[module.mounts]]
+        source = "layouts"
+        target = "layouts"
+    [[module.mounts]]
+        source = "i18n"
+        target = "i18n"
+
+    [[module.mounts]]
+        source = "themes/galleriesdeluxe/assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "themes/galleriesdeluxe/layouts"
+        target = "layouts"
+    [[module.mounts]]
+        source = "themes/galleriesdeluxe/i18n"
+        target = "i18n"
+    [[module.mounts]]
+        source = "themes/galleriesdeluxe/static"
+        target = "static"
+
+    [[module.mounts]]
+        source = "themes/gallerydeluxe/assets"
+        target = "assets"
+    [[module.mounts]]
+        source = "themes/gallerydeluxe/layouts"
+        target = "layouts"
+
+    [[module.mounts]]
+        source = "themes/hugo-mod-misc/common-partials/layouts"
+        target = "layouts"
+    [[module.mounts]]
+        source = "themes/hugo-mod-misc/common-partials/assets"
+        target = "assets"
+
+[menus]
+    [[menus.main]]
+        name = "首页"
+        url = "/"
+        weight = 1
+    [[menus.main]]
+        name = "游戏画廊"
+        url = "/galleries/"
+        weight = 2
+    [[menus.main]]
+        name = "关于我们"
+        url = "/about/"
+        weight = 3
+
+[languages.zh-cn]
+    weight = 1
+    locale = "zh-cn"
+    title = "CyberCarrot Studio"
