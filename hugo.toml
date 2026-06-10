@@ -29,9 +29,12 @@ title = 'CyberCarrot'
     # Theme CSS custom variables
     [params.galleriesdeluxe]
         [params.galleriesdeluxe.cssvars]
-            color-background = "#2bc2ae"
-            color-text       = "#dbaf1ee3"
-            color-accent     = "#ff6b35"
+            color-background        = "#0a0a14"
+            color-background-footer = "#0d0d1e"
+            color-primary           = "#ff6b35"
+            color-secondary         = "#1a1a2e"
+            color-text              = "#d6d6e0"
+            color-text-footer       = "#8b8ba0"
 
 [module]
     [module.hugoVersion]
