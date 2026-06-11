@@ -15,6 +15,20 @@ We believe games are one of the most immersive art forms. Our goal is to create 
 - Make games with personality
 - Stay free as developers
 
+### Members
+
+#### Fyvo1d
+
+Game Director | Programmer
+
+#### Tuke
+
+Game Designer | Artist
+
+#### Jishifu
+
+Game Designer | Artist
+
 ### Contact
 
 - 📧 Email: [fyvo1d@cybercarrot.net](mailto:fyvo1d@cybercarrot.net)
