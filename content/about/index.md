@@ -4,32 +4,32 @@ description: Learn about CyberCarrot's story and team.
 keywords: [About]
 ---
 
-## About CyberCarrot
+# About CyberCarrot
 
 CyberCarrot is an indie game studio.
 
 We believe games are one of the most immersive art forms. Our goal is to create works that draw players in and leave them with lasting memories.
 
-### Our Philosophy
+## Our Philosophy
 
 - Make games with personality
 - Stay free as developers
 
-### Members
+## Members
 
-#### Fyvo1d
+### Fyvo1d
 
 Game Director | Programmer
 
-#### Tuke
+### Tuke
 
 Game Designer | Artist
 
-#### Jishifu
+### Jishifu
 
 Game Designer | Artist
 
-### Contact
+## Contact
 
 - 📧 Email: [fyvo1d@cybercarrot.net](mailto:fyvo1d@cybercarrot.net)
 - 🐦 Twitter: [@CyberCarrot](https://twitter.com/CyberCarrot)
