@@ -1,23 +1,22 @@
 ---
-title: 关于我们
-layout: about
-description: 了解 CyberCarrot 的故事和团队成员。
+title: About Us
+description: Learn about CyberCarrot's story and team.
 keywords: [About]
 ---
 
-## 关于 CyberCarrot
+## About CyberCarrot
 
-CyberCarrot 是一个独立游戏工作室。
+CyberCarrot is an indie game studio.
 
-我们相信游戏是最具沉浸感的艺术形式之一。我们的目标是创造出能让玩家沉浸其中、留下美好回忆的作品。
+We believe games are one of the most immersive art forms. Our goal is to create works that draw players in and leave them with lasting memories.
 
-### 我们的理念
+### Our Philosophy
 
-- 做有个性的游戏
-- 做自由的开发者
+- Make games with personality
+- Stay free as developers
 
-### 联系我们
+### Contact
 
-- 📧 Email: [fyvo1d@cybercarrot.net](fyvo1d@cybercarrot.net)
+- 📧 Email: [fyvo1d@cybercarrot.net](mailto:fyvo1d@cybercarrot.net)
 - 🐦 Twitter: [@CyberCarrot](https://twitter.com/CyberCarrot)
-- 💬 Discord: [加入我们的社区](https://discord.gg/cybercarrot)
+- 💬 Discord: [Join our community](https://discord.gg/cybercarrot)

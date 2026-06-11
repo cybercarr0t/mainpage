@@ -1,0 +1,24 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "CyberCarrot"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2, 2006"
+  description = "CyberCarrot — an indie game studio focused on creating unique and fun gaming experiences."
+  copyright = "© CyberCarrot Production"
+
+[params.author]
+  name = "CyberCarrot"
+  email = "fyvo1d@cybercarrot.net"
+  headline = "An indie studio that loves making games"
+  bio = "CyberCarrot is an indie game studio dedicated to crafting creative and fun games."
+  links = [
+    { email = "mailto:fyvo1d@cybercarrot.net" },
+    { twitter = "https://twitter.com/CyberCarrot" },
+    { discord = "https://discord.gg/cybercarrot" },
+  ]

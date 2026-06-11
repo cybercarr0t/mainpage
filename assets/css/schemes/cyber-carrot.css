@@ -1,0 +1,39 @@
+/* Cyber Carrot scheme — deep warm-black base, carrot-orange primary, amber-gold secondary (no blue) */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Neutral — warm near-black grays (dark mode bg uses 800/900) */
+  --color-neutral-50: 250, 247, 244;
+  --color-neutral-100: 243, 238, 232;
+  --color-neutral-200: 226, 216, 206;
+  --color-neutral-300: 205, 190, 178;
+  --color-neutral-400: 168, 150, 135;
+  --color-neutral-500: 124, 106, 92;
+  --color-neutral-600: 84, 66, 54;
+  --color-neutral-700: 46, 34, 26;
+  --color-neutral-800: 20, 14, 10;
+  --color-neutral-900: 11, 7, 5;
+
+  /* Primary — carrot orange (#ff6b35) */
+  --color-primary-50: 255, 240, 232;
+  --color-primary-100: 255, 223, 208;
+  --color-primary-200: 255, 195, 167;
+  --color-primary-300: 255, 160, 119;
+  --color-primary-400: 255, 128, 82;
+  --color-primary-500: 255, 107, 53;
+  --color-primary-600: 237, 86, 33;
+  --color-primary-700: 198, 67, 22;
+  --color-primary-800: 158, 53, 18;
+  --color-primary-900: 122, 42, 16;
+
+  /* Secondary — amber / gold (warm) */
+  --color-secondary-50: 255, 247, 230;
+  --color-secondary-100: 255, 236, 199;
+  --color-secondary-200: 255, 219, 150;
+  --color-secondary-300: 255, 198, 92;
+  --color-secondary-400: 255, 176, 40;
+  --color-secondary-500: 240, 150, 10;
+  --color-secondary-600: 209, 122, 6;
+  --color-secondary-700: 168, 94, 8;
+  --color-secondary-800: 130, 72, 10;
+  --color-secondary-900: 99, 56, 12;
+}

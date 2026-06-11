@@ -1,0 +1,64 @@
+/* Cyber Carrot — aggressive carrot-orange cyberpunk accents (dark mode) */
+
+/* Deep warm-black background with an ambient carrot glow at the top */
+.dark body {
+  background-color: rgb(20, 14, 10);
+  background-image:
+    radial-gradient(1100px circle at 50% -8%, rgba(255, 107, 53, 0.18), transparent 60%),
+    radial-gradient(900px circle at 100% 0%, rgba(240, 150, 10, 0.10), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Neon orange top bar */
+.dark body {
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(
+      90deg,
+      rgba(255, 107, 53, 1),
+      rgba(255, 176, 40, 1)
+    )
+    1;
+}
+
+/* Headings glow carrot orange */
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: rgb(255, 128, 82);
+}
+.dark h1 {
+  text-shadow: 0 0 14px rgba(255, 107, 53, 0.4);
+}
+
+/* Content links carrot orange + hover glow */
+a {
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+.dark .prose a {
+  color: rgb(255, 138, 92);
+  text-decoration-color: rgba(255, 107, 53, 0.5);
+}
+.dark .prose a:hover {
+  color: rgb(255, 170, 130);
+  text-shadow: 0 0 8px rgba(255, 107, 53, 0.65);
+}
+
+/* Blockquote + horizontal rule accents */
+.dark .prose blockquote {
+  border-left-color: rgb(255, 107, 53);
+}
+.dark .prose hr {
+  border-color: rgba(255, 107, 53, 0.45);
+}
+
+/* Carrot scrollbar */
+.dark .bf-scrollbar::-webkit-scrollbar-thumb,
+.dark.bf-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 107, 53, 0.7);
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 107, 53, 0.4);
+  color: rgb(250, 247, 244);
+}
