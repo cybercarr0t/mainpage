@@ -29,6 +29,10 @@ Game Designer | Artist
 
 Game Designer | Artist
 
+### Parz1val
+
+Game Designer | Level Designer
+
 ## Contact
 
 - 📧 Email: [fyvo1d@cybercarrot.net](mailto:fyvo1d@cybercarrot.net)
